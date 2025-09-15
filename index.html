@@ -3,6 +3,7 @@
 
 <head>
  <title>Uganda Transport Fare Tracker</title>
+ <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -12,25 +13,44 @@
     <table>
         <tr>
             <th>Route</th>
+            <th>Means</th>
             <th>Fare(UGX)</th>
+            
         </tr>
         <tr>
-            <td>Kampala - Entebbe</td>
-            <td>5,000</td>
+            <td rowspan="6">Kampala - Entebbe</td>
+             <td>Taxi</td>
+             <td>5,000</td>
+             <tr>
+                <td>Bus</td>
+                <td>4,000</td>
+             </tr>
+             <tr>
+                <td>Boda</td>
+                <td>8,000</td>
+             </tr>
+             <tr>
+                <td>Uber</td>
+                <td><a href="https://www.uber.com/ug/en/ride/">Call a Uber</a></td>
+             </tr>
+             <tr>
+                <td>Safe Boda</td>
+                <td><a href="https://www.safeboda.com/home-ug">Call a SafeBoda</a></td>
+             </tr>
+             <tr>
+                <td>Bolt</td>
+                <td><a href="https://bolt.eu/en-ug/rides/">Order a Bolt</a></td>
+             </tr>
+             
+            
+            
         </tr>
-        <tr>
-            <td>Kampala - Mukono</td>
-            <td>3,000</td>
-        </tr>
-        <tr>
-            <td>Kampala - Bwaise</td>
-            <td>1,500</td>
-        </tr>
-        <tr>
-            <td>Kampala - Wakiso Town</td>
-            <td>3,000</td>
-        </tr>
+        
     </table>
+    <footer>
+        &copy;Rida. All rights reserved.
+
+    </footer>
 
 
 </body>
